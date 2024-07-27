@@ -1,0 +1,27 @@
+Comparision
+
+For data_0.0 (2).csv
+Normal Equation
+theta[0]/intercept/bias - 2
+theta[1]/coefficient/weight - 3
+
+Stocastic Gradient Descent
+theta[0]/intercept/bias - 1.9901446
+theta[1]/coefficient/weight - 3.00146789
+
+Batch Gradient Descent
+theta[0]/intercept/bias - 1.99999999
+theta[1]/coefficient/weight - 3
+
+data_5.555555555555555.csv
+Normal Equation
+theta[0]/intercept/bias - 1.80205976
+theta[1]/coefficient/weight - 2.99301381
+
+Stocastic Gradient Descent
+theta[0]/intercept/bias - 1.09013565
+theta[1]/coefficient/weight -3.9194707
+
+Batch Gradient Descent
+theta[0]/intercept/bias - 0.95116205
+theta[1]/coefficient/weight - 3.28488235

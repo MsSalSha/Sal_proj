@@ -1,0 +1,52 @@
+Experiment-4 Comparision Report
+
+Linearly Seperable Data (cluster_std=0.8):-
+Perceptron Model,
+Confusion Matrix : 
+ [[47  0]
+ [ 0 33]]
+Accuracy :  1.0
+Observations:
+Out of 80,
+ True Positive+True Negative = 47+33 = 80
+ False Positive+False Negative = 0+0 = 0
+Decision boundry line is:
+y = -2.0 + 11.178194262801338*Feature-1 + 1.6389397247576718*Feature-2
+
+Logistic Regression Model,
+Confusion Matrix : 
+ [[47  0]
+ [ 0 33]]
+Accuracy :  1.0
+Observations:
+Out of 80,
+ True Positive+True Negative = 47+33 = 80
+ False Positive+False Negative = 0+0 = 0
+Decision boundry line is:
+y = -8.310473099633876 + 1.0581723616388565*Feature-1 + -0.7848587622177987*Feature-2
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Linearly Non-Seperable Data (cluster_std=20)
+Perceptron Model,
+Confusion Matrix : 
+ [[16 23]
+ [22 19]]
+Accuracy :  0.4375
+Observations:
+Out of 80,
+ True Positive+True Negative = 16+19 = 35
+ False Positive+False Negative = 23+22 = 45
+Decision boundry line is:
+y = -36.0 + -8.650151388006897*Feature-1 + -37.75515874318277*Feature-2
+
+Logistic Regression Model,
+Confusion Matrix : 
+ [[26 13]
+ [12 29]]
+Accuracy :  0.6875
+Observations:
+Out of 80,
+ True Positive+True Negative = 26+29 = 55
+ False Positive+False Negative = 13+12 = 25
+Decision boundry line is:
+y = -0.17992121292320662 + 0.048492057470774855*Feature-1 + -0.02209885512953149*Feature-2

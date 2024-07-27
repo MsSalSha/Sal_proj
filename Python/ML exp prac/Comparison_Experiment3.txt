@@ -1,0 +1,16 @@
+Experiment-3 Comparision Report
+
+Linear Regression Results-
+y = [-117.50507047] + [[53.08335463]]*x
+theta0/intercept = -117.50507047
+theta1/coefficient = 53.08335463
+RMS = 64.88405221594972
+Regression Score = 0.905930601898437
+
+Polynomial Regression Degree 2 Results-
+y = 5.203852947132077 + 5.013910679126321*x + 3.1415044047693064*x^2
+theta0/intercept = 5.203852947132077
+theta1/coefficient1 = 5.013910679126321
+theta2/coefficient2 = 3.1415044047693064
+RMS = 37.65046380301478
+Regression Score = 0.9353196904126065
